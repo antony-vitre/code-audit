@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "knip": {
+      "workspaces": {
+        ".": {
+          "entry": [
+            "{src,dashboard/src}/{bin/cli,main}.{ts,tsx}"
+          ],
+          "project": [
+            "{src,dashboard/src}/**/*.{ts,tsx}"
+          ]
+        }
+      },
+      "ignoreDependencies": [
+        "jscpd",
+        "madge"
+      ]
+    },
+    "jscpd": {
+      "minTokens": 60,
+      "ignore": [
+        "**/dist/**",
+        "**/node_modules/**",
+        "**/reports/**",
+        "**/public/**"
+      ]
+    }
+  }
+}

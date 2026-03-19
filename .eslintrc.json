@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["@react-native", "plugin:prettier/recommended"],
+  "ignorePatterns": ["node_modules/", "dist/", "build/", "coverage/", "dashboard/node_modules/", "dashboard/dist/", "reports"],
+  "parserOptions": {
+    "requireConfigFile": false
+  }
+}
