@@ -162,7 +162,7 @@ Currently, configuration is minimal and mainly based on your project setup:
     },
     "audit": {
       "level": "high", // Considerate as error level
-      "all": true} // Check all workspaces
+      "all": true // Check all workspaces
     },
     "jscpd": {
       "threshold": 5, // The threshold for duplication level
