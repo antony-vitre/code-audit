@@ -10,8 +10,6 @@ A lightweight CLI tool to analyze code quality and generate an interactive dashb
 * 🔥 Visual insights (charts, heatmap, issues)
 * ⚡ Works out-of-the-box after installation
 
----
-
 ## 🚀 Installation
 
 ### From Git
@@ -19,8 +17,6 @@ A lightweight CLI tool to analyze code quality and generate an interactive dashb
 ```bash
 yarn add -D code-audit@git+ssh://git@github.com:antony-vitre/code-audit.git
 ```
-
----
 
 ## 🧪 Usage
 
@@ -45,8 +41,6 @@ Output:
   reports.json
 ```
 
----
-
 ### Open dashboard
 
 ```bash
@@ -54,8 +48,6 @@ yarn code-audit dashboard
 ```
 
 This will open the dashboard in your browser.
-
----
 
 ## 📊 Dashboard
 
@@ -69,8 +61,6 @@ The dashboard is fully static and includes:
 * Heatmap of recent runs
 
 No backend required.
-
----
 
 ## 🧠 How it works
 
@@ -89,8 +79,6 @@ No backend required.
 
 4. A React dashboard (prebuilt) reads the JSON and renders insights
 
----
-
 ## 📁 Output structure
 
 ```bash
@@ -102,8 +90,6 @@ reports/code-audit/
   index.html
   assets/
 ```
-
----
 
 ## ⚙️ Configuration
 
@@ -180,8 +166,6 @@ Currently, configuration is minimal and mainly based on your project setup:
 };
 ```
 
----
-
 ## 🛠 Development
 
 ### Install dependencies
@@ -208,15 +192,11 @@ cp -r ../reports/code-audit/reports.json public/
 yarn dev
 ```
 
----
-
 ## 📦 Build
 
 ```bash
 yarn build
 ```
-
----
 
 ## 💡 Notes
 
